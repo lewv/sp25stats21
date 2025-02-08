@@ -38,7 +38,7 @@ jupyter: python3
 
 ## terminal (MacOS) or powershell/cmd (Windows)
 
-![terminal on a mac](_images/terminal.png)
+![terminal on a mac](../_images/terminal.png)
 
 
 ## Check for Python
@@ -49,11 +49,11 @@ Try this at your terminal prompt or powershell/cmd prompt
 python --version
 ```
 
-![python version](_images/check_python.png)
+![python version](../_images/check_python.png)
 
 ## Checking in Windows
 
-![python version](_images/check_python_windows.png)
+![python version](../_images/check_python_windows.png)
 
 
 
@@ -65,7 +65,7 @@ Try this at your terminal prompt (MacOS) powershell prompt (Windows)
 git --version
 ```
 
-![git version](_images/check_git.png)
+![git version](../_images/check_git.png)
 
 - Git is a version control system.  GitHub is a hosting platform.
 - Git is primarily used for tracking changes in code by software developers 
@@ -73,7 +73,7 @@ git --version
 
 ## git on Windows
 
-![git windows version](_images/git_windows.png)
+![git windows version](../_images/git_windows.png)
 
 
 ## GitHub
@@ -81,7 +81,7 @@ git --version
 GitHub is a collection of tools and services used by software developers 
 which uses git for version control
 
-![GitHub](_images/check_github.png)
+![GitHub](../_images/check_github.png)
 
 ## Using GitHub the Git hosting platform
 
@@ -96,13 +96,14 @@ which uses git for version control
 - Add
 - Commit
 - Push
+- ...But the easiest thing is to get VS Code and GitHub working together [Using Git with Visual Studio](https://www.youtube.com/watch?v=i_23KUAEtUM&t=300s)
 
 ## Visual Studio Code (VS Code) 
 
 - free, 
 - lightweight (easy on resources), 
 - powerful source code editor 
-![VSCode](_images/vscode.png)
+![VSCode](../_images/vscode.png)
 
 ## Show you (some of) the ways
 
@@ -113,24 +114,24 @@ which uses git for version control
 
 ## But first... Checking Installations
 
-![Checking Installations in the shell](_images/check_versions.png)
+![Checking Installations in the shell](../_images/check_versions.png)
 
 ## Interactive Python
 
-![Shell Python](_images/python_terminal.png)
+![Shell Python](../_images/python_terminal.png)
 
 ## Code from Documentation
 
-![Example Code from Documentation](_images/code_snippet_documentation.png)
+![Example Code from Documentation](../_images/code_snippet_documentation.png)
 
 ## Result
 
-![Example Code Result](_images/code_snippet_run.png)
+![Example Code Result](../_images/code_snippet_run.png)
 
 ## Python script (.py) VSCode Example
 
 
-![Example .py](_images/python_script.png)
+![Example .py](../_images/python_script.png)
 
 
 ## Jupyter Notebook
@@ -138,7 +139,7 @@ which uses git for version control
 An interactive document that can mix code and text and create web pages 
 and related
 
-![Jupyter Example](_images/jupyter_example.png)
+![Jupyter Example](../_images/jupyter_example.png)
 
 
 ## This was presentation and the code below were written using Quarto 
