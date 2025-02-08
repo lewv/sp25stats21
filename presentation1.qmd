@@ -279,7 +279,7 @@ print('\n'.join(spells))
 
 Understanding this is not for today if you are just starting out.  It's what you are working towards as an end goal. 
 
-## What is Pythonic?
+## What is Pythonic? (a goal)
 
 - I don't think there is an official definition but review PEP 20 again.
 
@@ -315,10 +315,9 @@ spells = [
 ]
 z = range(6)
 
-print(x)
-print(y)
-print(spells[1])
-print(z)
+print(f"This is the value of x: {x}")
+print(f"This is the second spell of spells: {spells[1]}")
+print(f"This is the value of z: {z}")
 ```
 
 ## Objects have...
@@ -328,6 +327,7 @@ print(z)
 - value
 - reference count
 
+## Example: ID
 
 ```{python}
 #| echo: true
@@ -470,14 +470,21 @@ We will work with the common keywords and try to give you the scaffolding to mov
 
 - Try some illegal names to see what error messages Python tosses back to you.
 
-# Part 3: A little language example
+# Part 3: The fundamentals
+
+## The building blocks
+
+- Data Types
+- Operators
+- Control Flow (order of execution)
+- Functions (and Methods)
 
 ## More about type
 
 | Name	 | Type	  | Mutable?| Example |
 |--------|--------|---------|---------|
-| Boolean  | bool   | no    | True False |
 | Integer  | int    | no    | 3 -256 |
+| Boolean  | bool   | no    | True False |
 | Floating Point | float  | no | 1e5 2.718 |
 | Complex        | complex | no | 10j 2 + 1j |
 | Text | str | no | "UCLA" "The quick brown fox" |
@@ -487,21 +494,53 @@ We will work with the common keywords and try to give you the scaffolding to mov
 
 : Some of the basic types {.striped .hover}
 
-## The building blocks
-
-## Bool
-
-## Integers
-
-## Operations
-
-## Floats
+## Integers (int)
 
 
-## Import
 
-import pandas
+## Boolean (bool)
 
-import pandas as pd
+- A boolean can only be True or False.
+- Booleans mostly seen in control flow statements (e.g., if) to direct execution.
+- can assign a boolean value directly
+- Most comparison operations (e.g., ==, !=, <, >) return a boolean
+- bool is a subclass of int so True and False behave like the integers 1 and 0.
 
-from pandas import read_csv
+## Boolean Example
+
+```{python}
+#| echo: true
+#| label: Boolean Behavior
+flag = True
+if flag:
+    print("Flag is True!")
+else:
+    print("Flag is False!")
+
+result = (3 > 5)
+
+print(f"The result of 3 > 5 is: {result}")
+```
+
+## Floats (float)
+
+
+## Text (str)
+
+
+## List (list)
+
+
+## Tuple (tuple)
+
+# Takeaways
+
+## After lecture 1
+
+- Access to Python, an editor, maybe Git & GitHub
+- Python philosophy
+- Everything is an object
+- Names, naming rules
+- Data Types
+
+# Thank you
