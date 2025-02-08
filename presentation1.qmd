@@ -100,9 +100,7 @@ which uses git for version control
 
 ## Visual Studio Code (VS Code) 
 
-- free, 
-- lightweight (easy on resources), 
-- powerful source code editor 
+- free, lightweight (easy on resources), powerful source code editor 
 ![VSCode](../_images/vscode.png)
 
 ## Show you (some of) the ways
@@ -127,6 +125,10 @@ which uses git for version control
 ## Result
 
 ![Example Code Result](../_images/code_snippet_run.png)
+
+## Result (from terminal in VS Code)
+
+![Example Code Result](../_images/code_snippet_run2.png)
 
 ## Python script (.py) VSCode Example
 
@@ -171,14 +173,15 @@ member has a laptop
 - minimum group size 3, maximum group size 6
 - introduce yourselves, try to learn a new name today
 - take a group photo
-- upload it for class credit
+- upload a copy of your photo for class credit
 
-## What to do in your group
+## What to do while in your group
 
-- try to determine whether Python, git and some kind of code editor exist 
-on your team's computers
-- just take some notes for your own personal use if you do not already have these installed (mental or otherwise)
-
+- try to determine whether Python, git and some kind of code editor (e.g., VS Code) exist 
+on your group's computers
+- just take some notes for your own personal use if you do not already have these installed as to how to install it or get advice from your group.
+- if no one has a computer and or no one as Python installed, please reach out to your neighboring groups for help
+- then let's have some feedback
 
 # Part 2: A little language example
 ## Let's Back up a little
@@ -263,7 +266,7 @@ There are many other spells mentioned in the Harry Potter series of books.  This
 
 ## There is an ending (maybe)
 
-BUT We can re-use the existing _list_ object **spells** and we can avoid the 
+BUT we can **re-use** the existing _list_ object **spells** and we can **avoid** the 
 **for** loop structure. '\\n' is interpreted as "new line" . In this 
 context '\\n' is a separator and is also a string (note the single quotes).  
 Our code is now very  "Pythonic".
@@ -291,9 +294,8 @@ Understanding this is not for today if you are just starting out.  It's what you
 
 - Everything in Python is an object -- numbers, strings, lists, tuples, 
 and even functions, these are all objects.
-- Every object is created from some class.
+- Every object is created from some class (we will learn to make these later)
 - A class is a set of instructions or a template for creating objects.
-- Objects have a type, also have attributes and methods.
 
 ## Example: Object Creation
 
@@ -457,18 +459,18 @@ We will work with the common keywords and try to give you the scaffolding to mov
 
 - If you create a Python constant please use snake case with all caps (MAXIMUM_ITERATION)
 
-# Activity 2
-
+# Activity 2 (with others please)
 ## Create some variables
-Start the interactive interpreter, and type print(42). 
 
-It should echo 42 on the next line.
+- Please start an interactive interpreter if you can, and type print(42). 
 
-If you’re still in the interactive interpreter, type 43. It should print 43 on the next line. This is a feature of the interactive interpreter only, and won’t print anything if you’re executing a Python file.
+- It should echo 42 on the next line.
 
-Try assigning the literal value 7 to variables with different names. Try some illegal names to see what error messages Python tosses back to you.
+- Try assigning the literal value 7 to two variables with two different names (e.g. x and y). 
 
-# Part 3
+- Try some illegal names to see what error messages Python tosses back to you.
+
+# Part 3: A little language example
 
 ## More about type
 
